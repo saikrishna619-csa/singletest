@@ -13,7 +13,7 @@ pipeline {
 		}
 		stage('Deploying') {
 			steps {
-				bat 'mvn clean deploy -DmuleDeploy -DskipTests -Dmule.version=4.4.0 -Danypoint.username=Username2021 -Danypoint.password=Password2021 -Denv=Sandbox -Dappname=cicd-demo-1 -Dbusiness=Company -DvCore=Micro -Dworkers=1'
+				bat 'mvn clean deploy -DmuleDeploy -DskipTests -Dmule.version=4.4.0 -Danypoint.username=suresh736 -Danypoint.password=Suresh736@ -Denv=Sandbox -Dappname=cicd-demo-1 -Dbusiness=Company -DvCore=Micro -Dworkers=1'
 			}
 		}
 	}
