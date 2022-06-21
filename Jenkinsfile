@@ -13,7 +13,7 @@ pipeline {
 		}
 		stage('Deploying') {
 			steps {
-				bat 'mvn clean deploy -DmuleDeploy -DskipTests -Dusername=suresh736 -Dpassword=Suresh736@   -Denvironment=Sandbox  -Dapplication.name=test-sbi  -Dmule.version=4.3.0   -Dworkers=1 -Dworker.Type=Micro'
+				bat 'mvn clean deploy -DmuleDeploy -DskipTests -Dusername=mulesoft -Dpassword=Mulesoft619@   -Denvironment=Sandbox  -Dapplication.name=test-json  -Dmule.version=4.3.0   -Dworkers=1 -Dworker.Type=Micro'
 			}
 		}
 	}
